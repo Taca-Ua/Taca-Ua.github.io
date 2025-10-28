@@ -14,12 +14,10 @@ const config: Config = {
   },
 
   // Configuração para GitHub Pages
-  url: 'https://taca-ua.github.io',
-  baseUrl: '/',
-
-  organizationName: 'Taca-Ua',
-  projectName: 'Taca-Ua.github.io',
-  deploymentBranch: 'gh-pages',
+  url: 'https://taca-ua.github.io', // Your GitHub Pages URL
+  baseUrl: '/minisite/', // Your repo name with leading/trailing slashes
+  organizationName: 'Taca-Ua', // GitHub org/user name
+  projectName: 'minisite', // Repo name
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -96,16 +94,16 @@ const config: Config = {
           title: 'Documentação',
           items: [
             {
-              label: 'Introdução',
-              to: '/docs/intro',
+              label: 'Introdução ao Projeto',
+              to: '/docs/project_introduction',
             },
             {
-              label: 'Regulamento',
-              to: '/docs/regulamento',
+              label: 'Requisitos',
+              to: '/docs/project_structure/requirements',
             },
             {
-              label: 'Como Participar',
-              to: '/docs/participar',
+              label: 'Stack Tecnológica',
+              to: '/docs/project_structure/tech_stack',
             },
           ],
         },
