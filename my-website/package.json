@@ -1,13 +1,15 @@
 {
   "name": "my-website",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "homepage": "https://taca-ua.github.io/minisite",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r https://github.com/Taca-Ua/Taca-Ua.github.io.git -b main",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
