@@ -15,7 +15,7 @@ const config: Config = {
 
   // Configuração para GitHub Pages
   url: 'https://taca-ua.github.io', // Your GitHub Pages URL
-  baseUrl: '/minisite/', // Your repo name with leading/trailing slashes
+  baseUrl: '/', // Your repo name with leading/trailing slashes
   organizationName: 'Taca-Ua', // GitHub org/user name
   projectName: 'minisite', // Repo name
   trailingSlash: false,
