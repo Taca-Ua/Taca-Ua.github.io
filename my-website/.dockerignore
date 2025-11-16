@@ -1,0 +1,11 @@
+node_modules
+.docusaurus
+build
+dist
+npm-debug.log
+.git
+.vscode
+.env
+*.log
+__pycache__
+*.pyc

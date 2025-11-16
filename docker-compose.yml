@@ -1,0 +1,17 @@
+services:
+  web:
+    build:
+      context: ./my-website
+      dockerfile: Dockerfile
+    # bind-mount the site for live edits; keep node_modules inside the container
+    volumes:
+      - ./my-website:/app:delegated
+      - /app/node_modules
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    # Ensure Docusaurus binds to 0.0.0.0 inside container and use Yarn
+    command: ["yarn", "start", "--", "--host", "0.0.0.0"]
+    stdin_open: true
+    tty: true
