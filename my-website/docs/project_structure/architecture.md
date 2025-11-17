@@ -26,6 +26,15 @@ This page provides a concise summary of the "Taça UA" system architecture (C4 m
 - **Storage**: Postgres for persistent state and read models; Redis for caching; CDN / Object Storage for PDFs and regulations.
 - **Event Streaming**: Kafka for event-driven communication between services; Dead Letter Queues for failed messages.
 
+## Core Microservices
+
+- **Matches Service**: Manages matches and results; Creates and updates matches; Emits events like `MatchCreated`, `MatchUpdated`, `ResultPosted`.
+- **Ranking Service**: Processes scores and overall rankings; Consumes result events to update rankings; Updates read models for the frontend.
+- **Tournament Service**: Manages tournaments, stages, brackets, and journeys; Emits events related to tournament structure.
+- **Modalities Service**: Manages sports/modalities, rules, and specific configurations; Provides calculation rules to other services.
+- **Read Model Updater**: Consumes events from Kafka; Updates Redis for low-latency access; Guarantees cache invalidation.
+
+
 ## Observability and identity
 
 - **Observability**: Prometheus (metrics), Grafana (dashboards) and Loki (logs).
