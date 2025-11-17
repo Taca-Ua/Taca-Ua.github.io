@@ -102,6 +102,23 @@ Below is an overview of the main tools and frameworks that power our system.
     backgroundColor: 'var(--ifm-card-background-color)',
     boxShadow: '0 3px 6px rgba(0,0,0,0.1)'
   }}>
+    <img src="/img/django-svgrepo-com.svg" alt="Django" style={{ width: '60px', marginBottom: '0.5rem' }} />
+    <h4 style={{ marginBottom: '0.4rem', color: 'var(--ifm-font-color-base)' }}>Django</h4>
+    <p style={{ fontSize: '0.9rem', color: 'var(--ifm-color-emphasis-700)' }}>
+      High-level Python web framework for rapid development of secure and scalable APIs.
+    </p>
+  </div>
+
+
+  <div style={{
+    width: '200px',
+    textAlign: 'center',
+    border: '1px solid var(--ifm-color-emphasis-300)',
+    borderRadius: '10px',
+    padding: '1rem',
+    backgroundColor: 'var(--ifm-card-background-color)',
+    boxShadow: '0 3px 6px rgba(0,0,0,0.1)'
+  }}>
     <img src="/img/64px-Apache_Kafka_logo.svg.png" alt="Apache Kafka" style={{ width: '60px', marginBottom: '0.5rem' }} />
     <h4 style={{ marginBottom: '0.4rem', color: 'var(--ifm-font-color-base)' }}>Apache Kafka</h4>
     <p style={{ fontSize: '0.9rem', color: 'var(--ifm-color-emphasis-700)' }}>

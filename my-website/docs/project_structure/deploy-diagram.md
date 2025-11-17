@@ -1,6 +1,6 @@
-# Deployement
+# Deployment
 
-# Deployement Diagram
+# Deployment Diagram
 
 A simplified diagram illustrating the deployment process of our platform is shown below:
 
