@@ -1,5 +1,7 @@
 # Architecture Interactive Model
 
+This page provides an interactive model of the "Taça UA" system architecture.
+
 <iframe 
 	src="https://s.icepanel.io/0Ew5SpyMaaOSC9/Yllm"
 	style={{
