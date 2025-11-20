@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Taça UA Minisite',
-  tagline: 'A maior competição inter-cursos de Portugal',
+  tagline: 'The largest inter-course competition in Portugal',
   favicon: 'img/favicon.ico',
 
   future: {
@@ -63,7 +63,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Documentação',
+          label: 'Documentation',
         },
         {
           href: 'https://github.com/Taca-Ua',
@@ -76,41 +76,32 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Documentação',
+          title: 'Documentation',
           items: [
             {
-              label: 'Introdução ao Projeto',
+              label: 'Project Introduction',
               to: '/docs/project_introduction',
             },
             {
-              label: 'Requisitos',
+              label: 'Requirements',
               to: '/docs/project_structure/requirements',
             },
             {
-              label: 'Stack Tecnológica',
+              label: 'Personas & Scenarios',
+              to: '/docs/project_structure/personas',
+            },
+            {
+              label: 'User Stories',
+              to: '/docs/project_structure/user-stories',
+            },
+            {
+              label: 'Tech Stack',
               to: '/docs/project_structure/tech_stack',
             },
           ],
         },
         {
-          title: 'Comunidade',
-          items: [
-            {
-              label: 'Instagram',
-              href: 'https://instagram.com/tacaua',
-            },
-            {
-              label: 'Facebook',
-              href: 'https://facebook.com/tacaua',
-            },
-            {
-              label: 'LinkedIn',
-              href: 'https://linkedin.com/company/tacaua',
-            },
-          ],
-        },
-        {
-          title: 'Mais',
+          title: 'More',
           items: [
             {
               label: 'GitHub',
@@ -123,7 +114,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Taça UA - Universidade de Aveiro. Construído com Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Taça UA - Universidade de Aveiro. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
