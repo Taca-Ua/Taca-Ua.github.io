@@ -18,5 +18,8 @@ COPY . .
 ENV NODE_ENV=development
 EXPOSE 3000
 
+
+RUN yarn install
+
 # Start dev server and listen on all interfaces so container ports forward correctly
 CMD ["yarn", "start", "--", "--host", "0.0.0.0"]

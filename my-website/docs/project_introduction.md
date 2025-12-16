@@ -44,7 +44,7 @@ Through this digital transformation, Taça UA takes a decisive step toward effic
     boxShadow: '0 3px 6px rgba(0,0,0,0.1)'
   }}>
     <img
-      src="/img/bernardo.jpg"
+      src="/img/bernardo.jpeg"
       alt="Bernardo"
       style={{
         width: '100%',

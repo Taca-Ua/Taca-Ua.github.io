@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Taça UA Minisite',
   tagline: 'The largest inter-course competition in Portugal',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   future: {
     v4: true,
@@ -56,7 +56,7 @@ const config: Config = {
       title: 'Taça UA',
       logo: {
         alt: 'Taça UA Logo',
-        src: 'img/tacaua.png',
+        src: 'img/logo.png',
       },
       items: [
         {
