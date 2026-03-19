@@ -79,7 +79,7 @@ Through this digital transformation, Taça UA takes a decisive step toward effic
   }}>
     <img
       src="/img/alexandre.jpeg"
-      alt="Bernardo"
+      alt="Alexandre"
       style={{
         width: '100%',
         aspectRatio: '1 / 1',
@@ -122,7 +122,7 @@ Through this digital transformation, Taça UA takes a decisive step toward effic
   }}>
     <img
       src="/img/MateusRocha.jpg"
-      alt="Bernardo"
+      alt="Mateus"
       style={{
         width: '100%',
         aspectRatio: '1 / 1',
@@ -156,7 +156,7 @@ Through this digital transformation, Taça UA takes a decisive step toward effic
   }}>
     <img
       src="/img/goncalo.png"
-      alt="Bernardo"
+      alt="Gonçalo"
       style={{
         width: '100%',
         aspectRatio: '1 / 1',
@@ -178,40 +178,6 @@ Through this digital transformation, Taça UA takes a decisive step toward effic
     }}>Frontend</span>
   </div>
 
-  <!-- Dinis -->
-  <div style={{
-    width: '200px',
-    textAlign: 'center',
-    border: '1px solid var(--ifm-color-emphasis-300)',
-    borderRadius: '12px',
-    padding: '1rem',
-    backgroundColor: 'var(--ifm-card-background-color)',
-    boxShadow: '0 3px 6px rgba(0,0,0,0.1)'
-  }}>
-    <img
-      src="/img/dinis.jpeg"
-      alt="Bernardo"
-      style={{
-        width: '100%',
-        aspectRatio: '1 / 1',
-        objectFit: 'cover',
-        borderRadius: '8px',
-        marginBottom: '0.5rem'
-      }}
-    />
-    <h4 style={{ color: '#4caf50', marginBottom: '0.2rem' }}>Dinis</h4>
-    <em style={{ color: 'var(--ifm-color-emphasis-700)' }}>QA</em>
-    <hr style={{ margin: '0.8rem 0', borderColor: 'var(--ifm-color-emphasis-300)' }} />
-    <span style={{
-      backgroundColor: 'var(--ifm-color-emphasis-300)',
-      color: 'var(--ifm-font-color-base)',
-      fontWeight: '600',
-      padding: '0.25rem 0.6rem',
-      borderRadius: '6px',
-      fontSize: '0.85rem'
-    }}>Backend</span>
-  </div>
-
   <!-- Diego -->
   <div style={{
     width: '200px',
@@ -224,7 +190,7 @@ Through this digital transformation, Taça UA takes a decisive step toward effic
   }}>
     <img
       src="/img/diego.jpeg"
-      alt="Bernardo"
+      alt="Diego"
       style={{
         width: '100%',
         aspectRatio: '1 / 1',
