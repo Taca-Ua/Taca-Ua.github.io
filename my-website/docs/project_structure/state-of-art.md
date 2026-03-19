@@ -35,13 +35,13 @@ Sportlyzer focuses on athlete registration and calendar management but does not 
 The current Taça UA system relies heavily on manual processes using Excel spreadsheets, Google Forms, and social media for communication. While functional, this approach is time-consuming, error-prone, and lacks real-time updates. Historical data is maintained in Excel, making it difficult to analyze trends or provide public access.
 
 ### Taça UA (Project)
-The proposed Taça UA platform addresses all identified gaps by providing:
-- **Comprehensive Management:** Full tournament, sport, and team management with hierarchical administration
-- **Automation:** Automatic scoring, ranking calculation, and member validation
+The Taça UA platform addresses all identified gaps by providing:
+- **Comprehensive Management:** Full tournament, sport, and team management with a two-tier administrative hierarchy (General Administrator + Core/Nucleo Administrator)
+- **Automation:** Automatic scoring via configurable escalão (tier) point tables, ranking calculation driven by domain events, and member validation
 - **Transparency:** Public calendar with filters, real-time results, and historical data access
-- **Efficiency:** PDF game sheet generation, integrated communication, and streamlined workflows
-- **Scalability:** Multi-season support with complete data preservation
+- **Efficiency:** PDF game sheet generation, integrated file storage for regulations (MinIO), and streamlined workflows
+- **Scalability:** Multi-season support with complete data preservation and event-sourced read models
 
-The new platform will consolidate all competition management activities into a single, integrated system, eliminating manual processes and providing real-time information to all stakeholders.
+The platform consolidates all competition management activities into a single integrated system built on a microservices architecture, eliminating manual processes and providing real-time information to all stakeholders.
 
 ---

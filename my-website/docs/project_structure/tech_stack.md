@@ -119,10 +119,10 @@ Below is an overview of the main tools and frameworks that power our system.
     backgroundColor: 'var(--ifm-card-background-color)',
     boxShadow: '0 3px 6px rgba(0,0,0,0.1)'
   }}>
-    <img src="/img/64px-Apache_Kafka_logo.svg.png" alt="Apache Kafka" style={{ width: '60px', marginBottom: '0.5rem' }} />
-    <h4 style={{ marginBottom: '0.4rem', color: 'var(--ifm-font-color-base)' }}>Apache Kafka</h4>
+    <img src="/img/rabbitmq-svgrepo-com.svg" alt="RabbitMQ" style={{ width: '60px', marginBottom: '0.5rem' }} />
+    <h4 style={{ marginBottom: '0.4rem', color: 'var(--ifm-font-color-base)' }}>RabbitMQ</h4>
     <p style={{ fontSize: '0.9rem', color: 'var(--ifm-color-emphasis-700)' }}>
-      Event-driven communication platform for microservices.
+      Message broker for event-driven communication between microservices using the outbox pattern.
     </p>
   </div>
 
@@ -168,7 +168,23 @@ Below is an overview of the main tools and frameworks that power our system.
     <img src="/img/postgresql-logo-svgrepo-com.svg" alt="PostgreSQL" style={{ width: '60px', marginBottom: '0.5rem' }} />
     <h4 style={{ marginBottom: '0.4rem', color: 'var(--ifm-font-color-base)' }}>PostgreSQL</h4>
     <p style={{ fontSize: '0.9rem', color: 'var(--ifm-color-emphasis-700)' }}>
-      Relational database storing persistent domain data like matches, rankings, and users.
+      Single relational database with schema-level isolation per microservice, plus a shared read model schema.
+    </p>
+  </div>
+
+  <div style={{
+    width: '200px',
+    textAlign: 'center',
+    border: '1px solid var(--ifm-color-emphasis-300)',
+    borderRadius: '10px',
+    padding: '1rem',
+    backgroundColor: 'var(--ifm-card-background-color)',
+    boxShadow: '0 3px 6px rgba(0,0,0,0.1)'
+  }}>
+    <img src="/img/minio-svgrepo-com.svg" alt="MinIO" style={{ width: '60px', marginBottom: '0.5rem' }} />
+    <h4 style={{ marginBottom: '0.4rem', color: 'var(--ifm-font-color-base)' }}>MinIO</h4>
+    <p style={{ fontSize: '0.9rem', color: 'var(--ifm-color-emphasis-700)' }}>
+      S3-compatible object storage for regulation PDFs and file uploads, proxied publicly via NGINX.
     </p>
   </div>
 

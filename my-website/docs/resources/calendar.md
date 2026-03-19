@@ -22,12 +22,18 @@ The complete project calendar is available for download:
 | **Continued Development** | 01/12 | 07/12 | Frontend and backend connection and test creation |
 | **Deploy + Demo** | 08/12 | 14/12 | Application deployment, load/performance testing and demo creation |
 | **3rd Milestone** | 15/12 | 21/12 | Finalization with MVP release |
+| **Production Prep** | 09/01 | 25/01 | Deployment setup, TLS configuration, performance testing |
+| **Hardening & Auth** | 26/01 | 15/02 | Keycloak integration, security hardening, structured logging |
+| **Final Delivery** | 16/02 | 19/03 | Full system integration, documentation, final presentation |
 
-## 🚀 Next Semester
+## 🏁 Second Semester Highlights
 
-1. Put the application in production phase for real environment testing
-2. Focus on security for administration
-3. Feature expansion
+- Full Docker Compose production deployment with NGINX + TLS (Let's Encrypt)
+- Keycloak authentication with custom theme and RBAC
+- MinIO object storage for regulation PDFs
+- Structured logging via `structlog` + Loki + Grafana
+- Transactional outbox pattern for reliable RabbitMQ event delivery
+- Shared internal Python packages (`taca_messaging`, `taca_logging`, `taca_models`, `taca_storage`, `taca_outbox`)
 
 ---
 

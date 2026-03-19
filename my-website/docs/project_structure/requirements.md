@@ -38,7 +38,7 @@ This document describes the functional and non-functional requirements for the T
 
 | ID | Description |
 |----|-------------|
-| FR4.1 | The Core Administrator can create and manage players by course. |
+| FR4.1 | The Core Administrator can create and manage players (students and technical staff) by course. Members are typed: `student` for athletes and `technical_staff` for coaches/managers. |
 | FR4.2 | The Core Administrator can create and manage teams by sport. |
 | FR4.3 | The Core Administrator can enroll athletes in a team including their Student ID Number. |
 | FR4.4 | The platform automatically verifies if the athlete is a member, based on a list uploaded by the General Administrator. If not a member, the platform visually marks it (e.g., red dot). |
@@ -54,6 +54,7 @@ This document describes the functional and non-functional requirements for the T
 | FR5.4 | The public must be able to consult general rankings. |
 | FR5.5 | The public must be able to consult general and specific regulations. |
 | FR5.6 | The public must be able to view previous results, as well as past years' rankings. |
+| FR5.7 | The public must be able to consult historical matches and rankings filtered by past season. |
 
 ### FR6 - Scoring System and General Ranking
 

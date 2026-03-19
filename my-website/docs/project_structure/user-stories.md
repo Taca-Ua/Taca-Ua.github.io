@@ -40,7 +40,7 @@ This document contains all user stories organized by functional area.
 **As a General Administrator, I want to manage (create, edit, remove, etc.) Core Administrators, to maintain organizational control.**
 
 **Acceptance Criteria:**
-- Creating an administrator requires username, password, and associated course
+- Creating an administrator requires username, email, and associated course (credentials are managed by Keycloak)
 - Editing must allow updating data and course permission
 - Removal immediately revokes all permissions
 - Administrator list must update automatically
@@ -187,6 +187,16 @@ This document contains all user stories organized by functional area.
 - Non-member athletes must be visually marked (e.g., red dot)
 - Verification must occur automatically when adding or editing a player
 - Administrator must easily see membership status
+
+### US4.5 - Technical Staff Management
+
+**As a Core Administrator, I want to register and manage technical staff (coaches, managers) for my course, to keep team support roles organised.**
+
+**Acceptance Criteria:**
+- System must allow registering staff members with name and optional contact/staff number
+- Staff are listed separately from athletes under the course
+- Must be possible to edit and remove staff members
+- Staff members do not require a student ID number or membership validation
 
 ---
 

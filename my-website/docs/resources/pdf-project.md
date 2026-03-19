@@ -2,9 +2,13 @@
 
 This page contains the complete documentation of the project in PDF format.
 
-## 📋 Main Document
+## � Final Report First Semester
 
-The main project document is available for download:
+**[Taça UA Final Report](/pdf/tacaua_report.pdf)**
+
+---
+
+## 📋 Project Specification
 
 **[Taça UA Optimization and Informatization Project](/pdf/12%20-%20Projeto_de_Otimização_e_Informatização_da_Taça_UA.pdf)**
 
