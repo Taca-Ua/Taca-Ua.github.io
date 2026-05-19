@@ -89,7 +89,7 @@ Through this digital transformation, Taça UA takes a decisive step toward effic
       }}
     />
     <h4 style={{ color: '#4caf50', marginBottom: '0.2rem' }}>Alexandre</h4>
-    <em style={{ color: 'var(--ifm-color-emphasis-700)' }}>DevOps</em>
+    <em style={{ color: 'var(--ifm-color-emphasis-700)' }}>Architect</em>
     <hr style={{ margin: '0.8rem 0', borderColor: 'var(--ifm-color-emphasis-300)' }} />
     <span style={{
       backgroundColor: 'var(--ifm-color-emphasis-300)',
@@ -132,7 +132,7 @@ Through this digital transformation, Taça UA takes a decisive step toward effic
       }}
     />
     <h4 style={{ color: '#4caf50', marginBottom: '0.2rem' }}>Mateus Rocha</h4>
-    <em style={{ color: 'var(--ifm-color-emphasis-700)' }}>Architect</em>
+    <em style={{ color: 'var(--ifm-color-emphasis-700)' }}>DevOps</em>
     <hr style={{ margin: '0.8rem 0', borderColor: 'var(--ifm-color-emphasis-300)' }} />
     <span style={{
       backgroundColor: 'var(--ifm-color-emphasis-300)',
