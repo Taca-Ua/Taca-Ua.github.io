@@ -22,4 +22,4 @@ This page contains all presentations we made along the year.
 
 ## Students@deti Poster
 
-{/* **[Project Poster](/pdf/taca_ua_2_m4.pdf)** TODO: ADICIONAR POSTER AQUI*/}
+**[Poster](/pdf/ST2026-Students-Exemplo-Poster_PEI.pdf)**
