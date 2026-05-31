@@ -33,7 +33,6 @@ Through this digital transformation, Taça UA takes a decisive step toward effic
   marginTop: '1.5rem'
 }}>
 
-  <!-- Bernardo -->
   <div style={{
     width: '200px',
     textAlign: 'center',
@@ -67,7 +66,6 @@ Through this digital transformation, Taça UA takes a decisive step toward effic
     }}>Frontend</span>
   </div>
 
-  <!-- Alexandre -->
   <div style={{
     width: '200px',
     textAlign: 'center',
@@ -110,7 +108,6 @@ Through this digital transformation, Taça UA takes a decisive step toward effic
     }}>Backend</span>
   </div>
 
-  <!-- Mateus -->
   <div style={{
     width: '200px',
     textAlign: 'center',
@@ -144,7 +141,6 @@ Through this digital transformation, Taça UA takes a decisive step toward effic
     }}>Backend</span>
   </div>
 
-  <!-- Gonçalo -->
   <div style={{
     width: '200px',
     textAlign: 'center',
@@ -178,7 +174,6 @@ Through this digital transformation, Taça UA takes a decisive step toward effic
     }}>Frontend</span>
   </div>
 
-  <!-- Diego -->
   <div style={{
     width: '200px',
     textAlign: 'center',
